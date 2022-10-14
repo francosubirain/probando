@@ -1,0 +1,638 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -------INDEX---------*/
+
+.conteiner {
+    background-image: url(./images/optica3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 0;
+}
+
+
+/*---------header--------*/
+
+.registro {
+    text-align: right;
+    margin: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.registro a {
+    color:  gray;
+}
+
+.registro p {
+    color:  gray;
+}
+
+.parrafo-horizontal a {
+    color: white;
+    text-align: left;
+}
+
+
+
+h1 {
+    color: gray;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lista-productos li {
+    display: inline;
+    margin: 10px;
+}
+
+.lista-productos a {
+
+    font-size: 28px;
+    text-decoration: none;
+    color: gray;
+}
+
+.lista-productos {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    font-size: x-large;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.lista-productos :hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+
+
+/*------- MAIN ------- */
+.main-tarjetas {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.tarjeta-optica {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+.tarjeta-optica img {
+    width: 320px;
+    border-left: 5px black;
+    border-right: 5px black;
+    border-top: 5px black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: solid 1px black;
+    
+}
+
+.border-card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.info-card {
+    background-color: grey;
+    padding: 9px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 320px;
+    color:  white;
+    margin-right: 20px;
+    border: solid 1px black;
+
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-tarjetas {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+    border-color: gray;
+    color: black;
+}
+
+.button-tarjetas:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+    filter: brightness(70%);
+    background-color: aquamarine;
+    
+}
+
+.button-tarjetas a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.lista-compra {
+    color:  gray;
+    text-align: left;
+    margin: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+/*-------- FOOTER ------ */
+
+.contactanos {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color:gray;
+    
+}
+
+.contactanos p {
+    color: gray;
+
+}
+
+.contactanos address {
+    color:  gray;
+}
+
+
+
+h5 {
+    color:  gray;
+}
+
+.contacto {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.contacto nav {
+    color:  gray;
+}
+
+.contacto a {
+    color:  gray;
+}
+
+.redes {
+
+    text-align: center;
+    color:  gray;
+}
+
+.redes a {
+    color:  gray;
+}
+
+.redes a i {
+    font-size: 15px;
+    color:  gray;
+
+}
+
+.redes a i:hover {
+    transform: scale(2);
+    transition: all 1s ease;
+}
+
+.volver-inicio {
+    color:  gray;
+}
+
+.arriba a {
+    color: white;
+}
+
+/*----------- FORMULARIO REGISTRO -----------*/
+
+.formulario-registro form{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color:  gray;
+}
+
+
+.formulario-registro input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+
+.formulario-registro input[type=dni] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.formulario-registro input[type=submit] {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.formulario-registro input[type=submit]:hover {
+    background-color:  gray;
+    transform: scale(1.5);
+}
+
+.formulario-registro input[type=reset]:hover {
+    background-color:  gray;
+    transform: scale(1.5);
+}
+
+.formulario-registro div {
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 8px;
+    margin: 8px;
+    text-align: left;
+    font-size: 100%;
+    color:  gray;
+}
+
+.formulario-registro input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-registro input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.formulario-registro input[type=reset] {
+    width: 100%;
+    background-color:  gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+/*--------------------ANTEOJOS DE SOL--------*/
+.tabla-anteojos {
+    padding: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-anteojos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.tabla-anteojos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: black;
+}
+
+/*------------ FORMULARIO CONTACTO----------*/
+
+.formulario-contacto legend {
+    color:  gray;
+    text-align: center;
+}
+
+.formulario-contacto form {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+.formulario-contacto input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.formulario-contacto input[type=submit] {
+    width: 100%;
+    display: block;
+    background-color:  gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.formulario-contacto input[type=reset] {
+    width: 100%;
+    background-color:  gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.formulario-contacto input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-contacto input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*------------------ GORRAS ---------*/
+
+.lista-gorras ul {
+    color:  gray;
+    margin-left: 20px;
+}
+
+.lista-gorras p {
+    color:  gray;
+    margin-left: 10px;
+}
+
+.lista-gorras li {
+    display: inline;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 100px;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    background-color: beige;
+
+}
+
+
+.grid-imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.grid-item:nth-child(1){
+    grid-row-start: 2 span;
+}
+
+.grid-item:nth-child(2){
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(3){
+    grid-row-start: 2 span;
+}
+
+.grid-item:nth-child(5){
+    grid-row-start: 2 span;
+}
+
+.grid-item:nth-child(8){
+    grid-row-start:  span;
+}
+
+.grid-item:nth-child(10){
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(11){
+    grid-column-start: 3 span;
+}
+
+.grid-item:nth-child(12){
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(13){
+    grid-column-start: 2 span;
+}
+
+.grid-item:nth-child(14){
+    grid-column-start: 3 span;
+}
+
+
+
+.grid-item :hover{
+    box-shadow: 10px 10px 10px black;
+    transition: all 0.6s ease;
+    filter: brightness(20%);
+}
+
+.imagenes-flex {
+    background-image: url(./images/anteojosleer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------------- ARMAZONES ------- */
+
+.conteiner-flex-anteojos-leer {
+    margin: 0px;
+    padding-bottom: 0px;
+    background-image: url(./images/anteojosleer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.armazon {
+    color:  gray;
+}
+
+.lista-armazones {
+    color:  gray;
+    text-align: left;
+}
+
+.listas-armazon {
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.tit-armazon {
+    text-align: center;
+    font-size: 20px;
+    margin: 40px;
+}
+
+
+/*------------ANTEOJOS DE SOL---------*/
+
+.anteojos-sol h3{
+    color:  gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+.anteojos-sol p{
+    color:  gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.tabla-filtro h3 {
+    text-align: center;
+    color:  gray;
+    padding-top: 0%;
+    font-size: 40px;
+
+}
+
+.tabla-filtro table {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 40px;
+    font-size: 20px;
+    color:  gray;
+    align-items: center;    
+    justify-content: center;
+    width: 1250px;
+    height: 400px;
+    text-align: center;
+
+}
+
+
+.tabla-filtro table th {
+    color: white;
+    background-color:  gray;
+    padding: 10px;
+}
+
+.tabla-filtro table tr:nth-child(even) {
+    background-color: white;
+}
+
+.tabla-filtro table tr {
+    background-color: gray;
+}
+
+
+/* ------ GORRA CON GRID------*/
+
+.header-grid {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: 100px;
+
+}
+
+.prueba-grid:nth-child(1){
+    grid-column-start: 2;
+}
