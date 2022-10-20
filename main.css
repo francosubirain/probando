@@ -759,89 +759,88 @@ select {
     h1 {
         font-size: 20px;
     }
+}
+
+@media screen and (max-width:420) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px;
+        padding: 10px;
+        gap: 10px;
+        text-align: center;
+        background-color: beige;
+    }
+
+    .grid-item:nth-child(1) {
+        grid-row-start: 1 span;
+    }
+
+    .grid-item:nth-child(2) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(3) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(5) {
+        grid-row-start: 1 span;
+    }
+
+    .grid-item:nth-child(6) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(8) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(10) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(11) {
+        grid-column-start: 1 span;
+
+    }
+
+    .grid-item:nth-child(12) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(13) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(14) {
+        grid-column-start: 1 span;
+    }
 
 
+    .gorra-parrafo {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .marcas-gorras {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .lista-productos a {
+        font-size: 20px;
+    }
 
 
-    @media screen and (max-width:420px) {
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 100px;
-            padding: 10px;
-            gap: 10px;
-            text-align: center;
-            background-color: beige;
-        }
-
-        .grid-item:nth-child(1) {
-            grid-row-start: 1 span;
-        }
-
-        .grid-item:nth-child(2) {
-            grid-column-start: 1 span;
-        }
-
-        .grid-item:nth-child(3) {
-            grid-row-start: 2 span;
-        }
-
-        .grid-item:nth-child(5) {
-            grid-row-start: 1 span;
-        }
-
-        .grid-item:nth-child(6) {
-            grid-column-start: 1 span;
-        }
-
-        .grid-item:nth-child(8) {
-            grid-row-start: 2 span;
-        }
-
-        .grid-item:nth-child(10) {
-            grid-column-start: 1 span;
-        }
-
-        .grid-item:nth-child(11) {
-            grid-column-start: 1 span;
-
-        }
-
-        .grid-item:nth-child(12) {
-            grid-column-start: 1 span;
-        }
-
-        .grid-item:nth-child(13) {
-            grid-column-start: 1 span;
-        }
-
-        .grid-item:nth-child(14) {
-            grid-column-start: 1 span;
-        }
-
-
-        .gorra-parrafo {
-            padding-top: 15px;
-            padding-left: 15px;
-            padding-right: 10px;
-            text-align: center;
-            font-size: 15px;
-        }
-
-        .marcas-gorras {
-            text-align: center;
-            font-size: 12px;
-        }
-
-        .lista-productos a {
-            font-size: 20px;
-        }
-
-
-        .main-tarjetas {
-            display: block;
-            justify-content: center;
-            margin: 10px;
-            padding: 10px;
-        }
+    .main-tarjetas {
+        display: block;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+}
