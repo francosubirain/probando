@@ -17,6 +17,7 @@
     background-size: cover;
     width: 100%;
     padding-top: 0;
+    position: relative;
 }
 
 
@@ -30,11 +31,11 @@
 }
 
 .registro a {
-    color:  gray;
+    color: gray;
 }
 
 .registro p {
-    color:  gray;
+    color: gray;
 }
 
 .parrafo-horizontal a {
@@ -71,11 +72,11 @@ h1 {
     font-size: x-large;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
-    }
+}
 
 .lista-productos :hover {
-    transform: scale(1.5);
-    transition: all 1s ease;
+
+    filter: brightness(20%);
 }
 
 
@@ -95,7 +96,9 @@ h1 {
     flex-direction: column;
     justify-content: center;
     padding-top: 100px;
-    
+    padding-bottom: 100px;
+    margin: 20px;
+
 }
 
 .tarjeta-optica img {
@@ -106,7 +109,7 @@ h1 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border: solid 1px black;
-    
+
 }
 
 .border-card {
@@ -115,7 +118,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    
+
 }
 
 .info-card {
@@ -129,7 +132,7 @@ h1 {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     width: 320px;
-    color:  white;
+    color: white;
     margin-right: 20px;
     border: solid 1px black;
 
@@ -155,7 +158,7 @@ h1 {
     transition: all 1s ease;
     filter: brightness(70%);
     background-color: aquamarine;
-    
+
 }
 
 .button-tarjetas a {
@@ -165,7 +168,7 @@ h1 {
 }
 
 .lista-compra {
-    color:  gray;
+    color: gray;
     text-align: left;
     margin: 10px;
     border-color: transparent;
@@ -178,8 +181,10 @@ h1 {
     text-align: center;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    color:gray;
-    
+    color: gray;
+    padding-top: 10px;
+    background-color: white;
+
 }
 
 .contactanos p {
@@ -188,44 +193,42 @@ h1 {
 }
 
 .contactanos address {
-    color:  gray;
+    color: gray;
 }
 
 
 
 h5 {
-    color:  gray;
+    color: gray;
 }
 
 .contacto {
     text-align: right;
     margin: 10px;
     padding: 10px;
-
-
 }
 
 .contacto nav {
-    color:  gray;
+    color: gray;
 }
 
 .contacto a {
-    color:  gray;
+    color: gray;
 }
 
 .redes {
 
     text-align: center;
-    color:  gray;
+    color: gray;
 }
 
 .redes a {
-    color:  gray;
+    color: gray;
 }
 
 .redes a i {
     font-size: 15px;
-    color:  gray;
+    color: gray;
 
 }
 
@@ -235,21 +238,27 @@ h5 {
 }
 
 .volver-inicio {
-    color:  gray;
+    color: gray;
 }
 
 .arriba a {
     color: white;
 }
 
+.contactanos i:hover {
+    transform: scale(2);
+    transition: all 1s ease;
+
+}
+
 /*----------- FORMULARIO REGISTRO -----------*/
 
-.formulario-registro form{
+.formulario-registro form {
     width: 50%;
     margin: 10px;
     padding: 10px;
     text-align: center;
-    color:  gray;
+    color: gray;
 }
 
 
@@ -285,16 +294,16 @@ select {
     margin: 8px 0;
     border: none;
     border-radius: 4px;
-    
+
 }
 
 .formulario-registro input[type=submit]:hover {
-    background-color:  gray;
+    background-color: gray;
     transform: scale(1.5);
 }
 
 .formulario-registro input[type=reset]:hover {
-    background-color:  gray;
+    background-color: gray;
     transform: scale(1.5);
 }
 
@@ -305,7 +314,7 @@ select {
     margin: 8px;
     text-align: left;
     font-size: 100%;
-    color:  gray;
+    color: gray;
 }
 
 .formulario-registro input[type=email] {
@@ -331,7 +340,7 @@ select {
 
 .formulario-registro input[type=reset] {
     width: 100%;
-    background-color:  gray;
+    background-color: gray;
     color: white;
     padding: 14px 20px;
     margin: 12px 0;
@@ -367,17 +376,17 @@ select {
 /*------------ FORMULARIO CONTACTO----------*/
 
 .formulario-contacto legend {
-    color:  gray;
+    color: gray;
     text-align: center;
+    border-radius: 10px solid black;
 }
 
 .formulario-contacto form {
     background-color: aqua;
-    width: 50%;
-    height: 50%;
-    margin: 10px;
-    padding: 10px;
-    
+    width: 40%;
+    margin: 15px;
+
+
 }
 
 
@@ -388,26 +397,25 @@ select {
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-
+    box-sizing: border-box
 }
 
 .formulario-contacto input[type=submit] {
     width: 100%;
     display: block;
-    background-color:  gray;
+    background-color: gray;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    
+
 }
 
 .formulario-contacto input[type=reset] {
     width: 100%;
-    background-color:  gray;
+    background-color: gray;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -439,8 +447,8 @@ select {
 
 .formulario-contacto textarea {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+
+    margin: 4px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -450,22 +458,24 @@ select {
 /*------------------ GORRAS ---------*/
 
 .lista-gorras ul {
-    color:  gray;
+    color: gray;
     margin-left: 20px;
+    padding-bottom: 30px;
 }
 
 .lista-gorras p {
-    color:  gray;
+    color: gray;
     margin-left: 10px;
+
 }
 
 .lista-gorras li {
     display: inline;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100px;
     padding: 10px;
     gap: 10px;
@@ -474,57 +484,65 @@ select {
 
 }
 
+.gorra-parrafo {
+    text-align: center;
+}
 
-.grid-imagen{
+.marcas-gorras {
+    text-align: center;
+}
+
+
+.grid-imagen {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
-.grid-item:nth-child(1){
+.grid-item:nth-child(1) {
     grid-row-start: 2 span;
 }
 
-.grid-item:nth-child(2){
+.grid-item:nth-child(2) {
     grid-column-start: 2 span;
 }
 
-.grid-item:nth-child(3){
+.grid-item:nth-child(3) {
     grid-row-start: 2 span;
 }
 
-.grid-item:nth-child(5){
+.grid-item:nth-child(5) {
     grid-row-start: 2 span;
 }
 
-.grid-item:nth-child(8){
-    grid-row-start:  span;
+.grid-item:nth-child(8) {
+    grid-row-start: span;
 }
 
-.grid-item:nth-child(10){
+.grid-item:nth-child(10) {
     grid-column-start: 2 span;
 }
 
-.grid-item:nth-child(11){
+.grid-item:nth-child(11) {
     grid-column-start: 3 span;
 }
 
-.grid-item:nth-child(12){
+.grid-item:nth-child(12) {
     grid-column-start: 2 span;
 }
 
-.grid-item:nth-child(13){
+.grid-item:nth-child(13) {
     grid-column-start: 2 span;
 }
 
-.grid-item:nth-child(14){
+.grid-item:nth-child(14) {
     grid-column-start: 3 span;
 }
 
 
 
-.grid-item :hover{
+.grid-item :hover {
     box-shadow: 10px 10px 10px black;
     transition: all 0.6s ease;
     filter: brightness(20%);
@@ -536,49 +554,70 @@ select {
     background-size: cover;
 }
 
+
+
 /* ------------- ARMAZONES ------- */
 
 .conteiner-flex-anteojos-leer {
     margin: 0px;
     padding-bottom: 0px;
-    background-image: url(./images/anteojosleer.jpg);
+    background-image: url(./images/optica3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 .armazon {
-    color:  gray;
+    color: gray;
 }
 
 .lista-armazones {
-    color:  gray;
+    color: gray;
     text-align: left;
+    margin-top: 10px;
 }
 
-.listas-armazon {
+.listas-armazon1 {
     font-size: 20px;
-    margin: 15px;
     padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+.listas-armazon2 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+
+}
+
+.listas-armazon3 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+
 }
 
 .tit-armazon {
     text-align: center;
     font-size: 20px;
-    margin: 40px;
+    background-color: white;
+    border-top: solid 1px black;
 }
 
 
 /*------------ANTEOJOS DE SOL---------*/
 
-.anteojos-sol h3{
-    color:  gray;
+.anteojos-sol h3 {
+    color: gray;
     margin: 5px;
     padding: 5px;
 }
 
-.anteojos-sol p{
-    color:  gray;
+.anteojos-sol p {
+    color: gray;
     margin: 5px;
     padding: 5px;
 }
@@ -587,9 +626,10 @@ select {
 
 .tabla-filtro h3 {
     text-align: center;
-    color:  gray;
+    color: gray;
     padding-top: 0%;
     font-size: 40px;
+
 
 }
 
@@ -599,8 +639,8 @@ select {
     padding: 20px;
     margin: 40px;
     font-size: 20px;
-    color:  gray;
-    align-items: center;    
+    color: gray;
+    align-items: center;
     justify-content: center;
     width: 1250px;
     height: 400px;
@@ -611,28 +651,197 @@ select {
 
 .tabla-filtro table th {
     color: white;
-    background-color:  gray;
+    background-color: gray;
     padding: 10px;
 }
 
 .tabla-filtro table tr:nth-child(even) {
     background-color: white;
+    color: gray;
 }
 
 .tabla-filtro table tr {
     background-color: gray;
+    color: white;
+}
+
+.franja {
+    height: 200px;
+    background-color: grey;
+
 }
 
 
-/* ------ GORRA CON GRID------*/
 
-.header-grid {
-    display: grid;
-    grid-template-columns: repeat(3, fr);
-    grid-template-rows: 100px;
+@media screen and (max-width:768px) {
 
-}
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px;
+        padding: 10px;
+        gap: 10px;
+        text-align: center;
+        background-color: beige;
 
-.prueba-grid:nth-child(1){
-    grid-column-start: 2;
-}
+    }
+
+    .grid-item:nth-child(1) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(2) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(3) {
+        grid-row-start: 2 span;
+    }
+
+    .grid-item:nth-child(5) {
+        grid-row-start: 1 span;
+    }
+
+    .grid-item:nth-child(6) {
+        grid-column-start: 2 span;
+    }
+
+    .grid-item:nth-child(8) {
+        grid-row-start: span;
+    }
+
+    .grid-item:nth-child(10) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(11) {
+        grid-column-start: 2 span;
+
+    }
+
+    .grid-item:nth-child(12) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(13) {
+        grid-column-start: 1 span;
+    }
+
+    .grid-item:nth-child(14) {
+        grid-column-start: 1 span;
+    }
+
+    .gorra-parrafo {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .marcas-gorras {
+        text-align: center;
+    }
+
+    .lista-productos a {
+        font-size: 25px;
+    }
+
+    .main-tarjetas {
+        display: block;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    h1 {
+        font-size: 20px;
+    }
+
+
+
+
+    @media screen and (max-width:420px) {
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 100px;
+            padding: 10px;
+            gap: 10px;
+            text-align: center;
+            background-color: beige;
+        }
+
+        .grid-item:nth-child(1) {
+            grid-row-start: 1 span;
+        }
+
+        .grid-item:nth-child(2) {
+            grid-column-start: 1 span;
+        }
+
+        .grid-item:nth-child(3) {
+            grid-row-start: 2 span;
+        }
+
+        .grid-item:nth-child(5) {
+            grid-row-start: 1 span;
+        }
+
+        .grid-item:nth-child(6) {
+            grid-column-start: 1 span;
+        }
+
+        .grid-item:nth-child(8) {
+            grid-row-start: 2 span;
+        }
+
+        .grid-item:nth-child(10) {
+            grid-column-start: 1 span;
+        }
+
+        .grid-item:nth-child(11) {
+            grid-column-start: 1 span;
+
+        }
+
+        .grid-item:nth-child(12) {
+            grid-column-start: 1 span;
+        }
+
+        .grid-item:nth-child(13) {
+            grid-column-start: 1 span;
+        }
+
+        .grid-item:nth-child(14) {
+            grid-column-start: 1 span;
+        }
+
+
+        .gorra-parrafo {
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 10px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .marcas-gorras {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .lista-productos a {
+            font-size: 20px;
+        }
+
+
+        .main-tarjetas {
+            display: block;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+        }
