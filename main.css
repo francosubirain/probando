@@ -181,25 +181,25 @@ h1 {
     text-align: center;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    color: gray;
+    color: rgb(78, 47, 47);
     padding-top: 10px;
     background-color: white;
 
 }
 
 .contactanos p {
-    color: gray;
-
+    color: rgb(78, 47, 47);
+    
 }
 
 .contactanos address {
-    color: gray;
+    color: rgb(78, 47, 47);
 }
 
 
 
 h5 {
-    color: gray;
+    color: rgb(78, 47, 47);
 }
 
 .contacto {
@@ -209,26 +209,26 @@ h5 {
 }
 
 .contacto nav {
-    color: gray;
+    color: rgb(78, 47, 47);
 }
 
 .contacto a {
-    color: gray;
+    color: rgb(78, 47, 47);
 }
 
 .redes {
 
     text-align: center;
-    color: gray;
+    color: rgb(78, 47, 47);
 }
 
 .redes a {
-    color: gray;
+    color: rgb(78, 47, 47);
 }
 
 .redes a i {
     font-size: 15px;
-    color: gray;
+    color: rgb(78, 47, 47);
 
 }
 
@@ -238,7 +238,7 @@ h5 {
 }
 
 .volver-inicio {
-    color: gray;
+    color: rgb(78, 47, 47);
 }
 
 .arriba a {
@@ -352,26 +352,6 @@ select {
 
 
 
-/*--------------------ANTEOJOS DE SOL--------*/
-.tabla-anteojos {
-    padding: 5px;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.tabla-anteojos th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #04AA6D;
-    color: white;
-}
-
-.tabla-anteojos td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    color: black;
-}
 
 /*------------ FORMULARIO CONTACTO----------*/
 
@@ -667,7 +647,7 @@ select {
 
 .franja {
     height: 200px;
-    background-color: grey;
+    background-color: rgb(78, 47, 47);
 
 }
 
@@ -843,4 +823,171 @@ select {
         margin: 10px;
         padding: 10px;
     }
+
+}
+
+
+/*------------sunglasses---------*/
+.navbar {
+    background-color: rgb(78, 47, 47);
+}
+
+.container-sabias {
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-nav li {
+    color: white;
+
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.sabias {
+    text-align: center;
+    margin: 100px;
+    color: white;
+
+}
+
+
+.nright {
+    color: white;
+    margin-right: 0px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/anteojito.webp);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0px;
+    margin-bottom: 0%;
+    border-radius: 0%;
+}
+
+.item {
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-right: 0%;
+}
+
+.item1 {
+    background-image: url(./images/anteojo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2 {
+    background-image: url(./images/anteojo2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3 {
+    background-image: url(./images/anteojo3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4 {
+    background-image: url(./images/anteojo4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5 {
+    background-image: url(./images/anteojo6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6 {
+    background-image: url(./images/anteojo5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7 {
+    background-image: url(./images/anteojo7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8 {
+    background-image: url(./images/anteojo8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item9 {
+    background-image: url(./images/anteojo9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item10 {
+    background-image: url(./images/anteojo10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item11 {
+    background-image: url(./images/anteojo11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item12 {
+    background-image: url(./images/anteojo12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item13 {
+    background-image: url(./images/anteojo101.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item14 {
+    background-image: url(./images/anteojo14.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.item15 {
+    background-image: url(./images/anteojo15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item16 {
+    background-image: url(./images/anteojo16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-table h2 {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    margin-right: 0px;
+}
+
+
+
+
+.table{
+    color: white;
+    text-align: center;
 }
